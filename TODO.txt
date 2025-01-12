@@ -1,0 +1,27 @@
+/list 
+    - Basic template of page DONE
+    - Sample Template creation for each sample created DONE
+    - link to dedicated edit/id page. -> basically, map through all_samples, create route link for each id, that link goes to an edit page with that data loaded. DONE
+    - probably fix date/time
+/create
+    - fix sample creation: multiple layers of one instrument type, not multiple instruments. DONE
+    - preview button that plays ALL bars DONE -> now make it use a hook and link to a button DONE
+    - update and save recording data DONE
+    - Align sample data with get request data (need to redesign the whole thing) DONE
+    - PUSH request to create new sample DONE
+    - Save sample with unique ID  DONE
+    - Change instrument type -> alter tone.part  DONE
+    - send instrument type data through create sample DONE
+    - Access sample again with ID DONE
+    - Add other instrument types to instruments.js DONE
+
+/share
+    - Create page templates DONE
+    - add templates iterating through each sample (see List page) DONE
+    - add locations to API DONE
+    - PUT locations in API DONE
+    - Overwrite existing sample wiht PUT/PATCH DONE -> used a different page template for new/existing samples (not great, but it works)
+    - add "share" option to homepage list DONE
+    - add "preview" option to share sample page  DONE
+    - **add "preview" option to homepage list - a little inconsistent, but working (issue: playing wrong sample - due to fetch request waiting/race condition)
+    - fix edit button on share page DONE
